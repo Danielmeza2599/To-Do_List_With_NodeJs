@@ -1,0 +1,23 @@
+{
+  "name": "to-do_list_with_nodejs",
+  "version": "1.0.0",
+  "description": "A basic To-Do List, with Node.Js in the back end",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danielmeza2599/To-Do_List_With_NodeJs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Danielmeza2599/To-Do_List_With_NodeJs/issues"
+  },
+  "homepage": "https://github.com/Danielmeza2599/To-Do_List_With_NodeJs#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
