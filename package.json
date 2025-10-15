@@ -4,7 +4,7 @@
   "description": "A basic To-Do List, with Node.Js in the back end",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",

@@ -10,7 +10,17 @@ const express = require('express');
 
 // 2. Crear una instancia de Express
 const app = express();
-const port = 3000;
+//const port = 3000; /* -- Se cambia por un puerto dinamico en vez de 3000 */
+
+// PORT DINÁMICO PARA DESPLEGAR EN RENDER U OTROS SERVICIOS
+const port = process.env.PORT || 3000;
+
+app.listen(port, () => {
+    console.log(`Servidor corriendo en el puerto ${port}`);
+});
+
+// Middleware para servir archivos estáticos (HTML, CSS, JS)
+app.use(express.static('public')); // carpeta Public
 
 // 3. Middleware para que Express entienda JSON
 app.use(express.json());
